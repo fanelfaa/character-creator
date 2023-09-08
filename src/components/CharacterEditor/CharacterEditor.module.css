@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  padding-right: 400px;
 }
 
 .header {
@@ -24,7 +25,13 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 80vh;
 }
 
 .controlColumn {
+  max-width: 100%;
 }
